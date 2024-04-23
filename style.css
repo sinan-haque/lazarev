@@ -184,18 +184,116 @@ nav button svg{
     top: 0;
     right:0;
     z-index: 2;
-    
-    z-index: 2;
 }
-
-
-
-
 
 
 #page2{
     height: 100vh;
     width: 100%;
     background-color:#111;
+    position:relative;
+    padding: 2vw 8vw;
+    padding-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #474747;
 
+
+}
+#page2-left{
+    height: 80%;
+    width: 40%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+#page2-left p{
+    font-size: 14px;
+}
+#page2-left h5 {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+#page2-right{
+    height: 80%;
+    width: 50%;
+}
+.right-elem{
+    position: relative;
+
+    padding: 1vw ;
+    padding-bottom: 5vw;
+    border-bottom: 1px solid rgb(138, 138, 138);
+
+} 
+.right-elem:nth-child(4){
+    border-bottom: none;
+}
+.right-elem h2{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.right-elem img{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    scale: 0;
+
+}
+#page3{
+    height: 80vh;
+    width: 100%;
+    background-image: url(lagarev.webp);
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3 .page3-center i{
+    font-size: 3vw;
+    background-color: #ffffff;
+    color:#111111;
+    padding: 4vw;
+    border-radius: 50%;
+} 
+#page3 .page3-center h5{
+    background-color: #fff;
+    color: #111111;
+    font-size: 0.8vw;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all ease 0.5s;
+    margin-top: 4vw;
+    opacity: 0;
+}
+#page3:hover .page3-center h5{
+    opacity: 1;
+}
+#page3 video{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(0.9) scale(0.3);
+    opacity: 0;
+    border-radius: 30px;
+    z-index: 999;
+
+}
+
+
+
+#page4{
+    height: 100vh;
+    width: 100%;
 }
