@@ -5,16 +5,102 @@
     font-family: roboto;
 }
 html,body{
-    height:100vh;
+    height:100%;
     width: 100%;
 }
-h1{
+
+ /* h1{ 
     font-size: 300px;
     font-weight: 900;
     -webkit-text-stroke: 4px black;
     color :transparent;
-}
-p::selection{
+} */
+/* p::selection{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+} */
+/* video 16 */
+  /* body{ 
+    height: 1000%;
+    width: 100%;
+ 
+}   */
+/* 
+body::-webkit-scrollbar{
+    background-color: transparent;
 }
+body::-webkit-scrollbar-thumb{
+    background:linear-gradient(red,blue,black);
+    border-radius: 20px;
+} */
+/* 
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(gray,black,rgb(227, 209, 209));
+    border-radius: 30px;
+} */
+
+
+
+/* video 17 css*/
+/* .loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px dotted transparent;
+    border-top-color:green;
+    animation:rotate 2s infinite;
+}
+@keyframes rotate{
+    100%{
+        rotate: 360deg;
+    }
+} */
+
+/* 
+.loader{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-top-color: aqua;
+    margin: 30px;
+    border-top-right-radius: 50%;
+    animation: rotate 3s infinite;
+}
+@keyframes rotate{
+    100%{
+        rotate: 360deg;
+
+    }
+} */
+
+/* vidoe 18 underline animation */
+
+/* 
+body{padding: 10px;
+    
+}
+
+h1{
+    font-weight: 900;
+    position: relative;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background-color: black;
+    transition: all ease 1s;
+}
+h1:hover::after{
+    width: 210px;
+  
+
+start 20 video
+} */
