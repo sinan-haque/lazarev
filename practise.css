@@ -104,3 +104,67 @@ h1:hover::after{
 
 start 20 video
 } */
+/* div{
+   height: 200px;
+   width: 300px;
+   background-color: #333;
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-image: url(palestine.png);
+   background-repeat: no-repeat;
+   object-fit: cover;
+   background-size: cover;
+}
+.bottom{
+    height: -40%;
+    width: 100%;
+    background:linear-gradient(transparent,black);
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.5s;
+
+}
+.bottom:hover{
+    opacity: 1;
+
+
+} */
+
+
+
+
+
+/* .box{
+    height: 250px;
+    width:300px;
+    background-color: red;
+    position: relative;
+    white-space: nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+.child{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-left: 30px;
+    display: inline-block;
+
+
+} */
+
+
+
+
+
+.pic img{
+    margin: 80px;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    -webkit-mask-image: url(love.png);
+    -webkit-mask-size: contain;
+
+}
