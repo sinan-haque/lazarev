@@ -303,7 +303,7 @@ h2{
     height: 600px;
    
 }
-h1{
+/* h1{
     font-size: 100px;
     font-weight: 900;
     text-align: center;
@@ -318,4 +318,31 @@ h1{
         text-shadow: 0 0 60px rgba(0, 68, 255, 0.424);
     }
 
+} */
+
+/* h1{
+    font-size: 100px;
+    color:green;
+    text-align: center;
+    background: linear-gradient(45deg,red,blue);
+     text-shadow: 0 0 60px rgb(247, 0, 0);;
+    -webkit-background-clip: text;
+    color:transparent;
+    animation: sinan 1s infinite alternate;
+
 }
+@keyframes sinan {
+    100%{
+        text-shadow: 10px 10px 20px rgba(255, 231, 122, 0.396);
+    }
+    
+} */
+/* body{
+    padding: 200px;
+    background-color: #000;
+    perspective: 200px;
+}
+img{
+    height: 600px;
+    transform: rotateX(45deg);
+} */
